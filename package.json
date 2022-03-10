@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Vlad Burnaev <vlad.burn325@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel index.hbs --no-cache",
+    "build": "parcel build index.hbs --no-cache"
+  },
+  "devDependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parcel": "^2.3.2"
+  }
+}
